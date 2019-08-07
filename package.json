@@ -1,0 +1,121 @@
+{
+  "_args": [
+    [
+      "git+https://gitlab.valicn.com/fe/futureshareschain/fscio/react-native-modules-fix/fsc-react-native-udp.git",
+      "/Users/maxiaoyao/Desktop/fshareswallet"
+    ]
+  ],
+  "_from": "git+https://gitlab.valicn.com/fe/futureshareschain/fscio/react-native-modules-fix/fsc-react-native-udp.git",
+  "_id": "react-native-udp@git+https://gitlab.valicn.com/fe/futureshareschain/fscio/react-native-modules-fix/fsc-react-native-udp.git#f4e9ac6eacbd01bc3d1d2c282683fb618174340a",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-udp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://gitlab.valicn.com/fe/futureshareschain/fscio/react-native-modules-fix/fsc-react-native-udp.git",
+    "rawSpec": "git+https://gitlab.valicn.com/fe/futureshareschain/fscio/react-native-modules-fix/fsc-react-native-udp.git",
+    "saveSpec": "git+https://gitlab.valicn.com/fe/futureshareschain/fscio/react-native-modules-fix/fsc-react-native-udp.git",
+    "fetchSpec": "https://gitlab.valicn.com/fe/futureshareschain/fscio/react-native-modules-fix/fsc-react-native-udp.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://gitlab.valicn.com/fe/futureshareschain/fscio/react-native-modules-fix/fsc-react-native-udp.git#f4e9ac6eacbd01bc3d1d2c282683fb618174340a",
+  "_spec": "git+https://gitlab.valicn.com/fe/futureshareschain/fscio/react-native-modules-fix/fsc-react-native-udp.git",
+  "_where": "/Users/maxiaoyao/Desktop/fshareswallet",
+  "author": {
+    "name": "Mark Vayngrib",
+    "email": "mark.vayngrib@lablz.com"
+  },
+  "browser": {
+    "dgram": "react-native-udp",
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "@tradle/react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify",
+    "tls": false
+  },
+  "bugs": {
+    "url": "https://github.com/tradle/react-native-udp/issues"
+  },
+  "dependencies": {
+    "base64-js": "0.0.8",
+    "events": "^1.0.2",
+    "inherits": "^2.0.1",
+    "ip-regex": "^1.0.3",
+    "util": "^0.10.3"
+  },
+  "description": "node's dgram API for react-native",
+  "devDependencies": {
+    "mocha": "^6.0.1"
+  },
+  "homepage": "https://github.com/tradle/react-native-udp",
+  "keywords": [
+    "react-component",
+    "reactnative",
+    "react-native",
+    "dgram",
+    "udp",
+    "sockets",
+    "ios",
+    "android"
+  ],
+  "license": "MIT",
+  "main": "UdpSockets.js",
+  "name": "react-native-udp",
+  "react-native": {
+    "dgram": "react-native-udp",
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "@tradle/react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify",
+    "tls": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tradle/react-native-udp.git"
+  },
+  "scripts": {
+    "start": "exit 1",
+    "test": "mocha"
+  },
+  "version": "2.6.1"
+}
